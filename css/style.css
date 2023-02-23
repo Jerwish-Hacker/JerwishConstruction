@@ -192,3 +192,11 @@ color:#4267B2;
     background-color: aqua !important;
     color: red !important;
 }
+
+.about_head_box{
+    background-color: var(--banner-color);
+    color: var(--text-color);
+}
+#about_heading{
+    padding: 0px;
+}
