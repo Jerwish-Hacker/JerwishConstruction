@@ -11,9 +11,26 @@
     <script src="https://kit.fontawesome.com/4554d31e64.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css"> <link rel="icon" type="image/png" href="./img/logo.png"> 
     <script src="code.js"></script>    
-</head>
+</head><!-- <button type="button" class="btn btn-primary">Save changes</button> -->
 
-<body>    
+<body>        
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">3D Views</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          3D Views will be update in soon <i class="fas fa-digging"></i>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>          
+        </div>
+      </div>
+    </div>
+  </div>                
     <div id="header" >
         <div class="container" >
             <div class="row">
@@ -23,8 +40,8 @@
                 <div class="col-md-8">
                     <ul id="menu" class="float-md-end">
                         <li class="border-bottom"><a href="">Home</a></li>
-                        <li><a href="">Design</a></li>
-                        <li><a href="">3D Views</a></li>
+                        <li><a  href="./view/Design.html">Design</a></li>
+                        <li><a data-bs-toggle="modal" data-bs-target="#exampleModal" href="">3D Views</a></li>
                         <li><a href="./view/About.html">About Us</a></li>
                         <li><a href="">Contact Us</a></li>
                     </ul>
@@ -91,7 +108,7 @@
                     <div class="testimonail">                        
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, soluta? Possimus eaque architecto in esse!</p>
                         <img src="./img/a2.jpg" alt=""  height="100px">
-                        <div class="author lead">Sudar</div>
+                        <div class="author lead">Sunda Pichai</div>
                         <div class="author_company">CEO Google</div>
                     </div>
                 </div>
@@ -161,7 +178,7 @@
                             <address>
 		Organization Name: Jerwish Company <br>
 		Web Site:<a href=""> Git Hub</a><br>
-		visit us:<br>Youtuber<br>
+		Visit us: Youtuber<br>
 		710-B, Advant Navis Business Park, <br>
 		Sector-142, Noida Uttar Pradesh – 201305
 	</address>
