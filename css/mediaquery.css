@@ -1,0 +1,53 @@
+/* xxl */
+@media only screen and (max-width: 1400px) {
+    #c_name{
+        font-size: 35px;
+    }
+}
+/* xl */
+@media only screen and (max-width: 1200px) {
+    #c_name{
+        font-size: 32px;        
+    }
+}
+/* lg */
+@media only screen and (max-width: 992px) {        
+    #banner-topic{
+        padding-top: 3rem;
+    }
+    .text-a-center{
+        text-align: center;
+    }
+}   
+
+/* md */
+@media only screen and (max-width: 768px) {
+    #banner-topic{
+        padding-top: 1rem;
+    }
+}
+
+
+/* sm */
+@media only screen and (max-width: 576px) {
+    .h_size{
+        font-size: 30px;
+    }    
+    #banner {
+        background: url('../img/bg1.jpg') no-repeat;
+        background-size: cover;
+        background-position: 10% 70%;
+        /* position: relative;
+        z-index: -1; */
+    }
+    #banner-topic{
+        padding-top: 0rem;
+        text-align: center;
+    }
+    .home_design{
+        text-align: center;        
+    }        
+    
+}
+
+

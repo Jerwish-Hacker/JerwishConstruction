@@ -14,7 +14,7 @@
 .service-box:hover{
     cursor: pointer;
 }
-.section h2.section-head{
+.section h2.section-head {
     color: black;
     text-align: center;
     margin-bottom: 40px;
@@ -206,4 +206,7 @@ color:#4267B2;
 .linked_icon{
     font-size: 30px;    
     color: #0A66C2;
+}
+.h_size{
+    font-size:50px;
 }
