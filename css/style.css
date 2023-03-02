@@ -210,3 +210,24 @@ color:#4267B2;
 .h_size{
     font-size:50px;
 }
+.back_btn_box{
+    left:80vw;
+    bottom: 5vh;    
+}
+.btn_back{  
+    background-color: var(--banner-color);
+    color: var(--text-color);
+    box-shadow: 0 15px 10px rgb(0, 0,0,0.4);
+}
+.btn_back::after{  
+    content: "\f101";
+    font-family: fontawesome;
+     padding: 0px 3px;    
+}
+.under_box::after{
+    background-color: var(--banner-color);
+    content: "";
+    display: block;
+    width:100px;
+    height: 3px;
+}
