@@ -26,6 +26,7 @@
     #banner-topic{
         padding-top: 1rem;
     }
+    
 }
 
 
@@ -48,6 +49,9 @@
     .home_design{
         text-align: center;        
     }        
+    #menu li a{          
+        padding: 15px 4px;        
+    }
     
 }
 
