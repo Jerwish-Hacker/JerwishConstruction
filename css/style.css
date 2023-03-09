@@ -231,3 +231,12 @@ color:#4267B2;
     width:100px;
     height: 3px;
 }
+#contact_text::after{
+    background-color: var(--banner-color);
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 20px auto; 
+
+}
