@@ -13,11 +13,11 @@
 </head>
 <body>
     <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="pop" tabindex="-1" aria-labelledby="popModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">3D Views</h5>
+          <h5 class="modal-title" id="popModalLabel">3D Views</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -28,7 +28,27 @@
         </div>
       </div>
     </div>
-  </div>                
+  </div>                  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Success</h1>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body">
+          Your Message was Sucessfully Send
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">OK</button>          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
   <div id="header" >
     <div class="container" >
         <div class="row">
@@ -40,7 +60,7 @@
                     <li class="text-decoration-underline"><a href="../index.html"><i class="fas fa-home d-md-none d-block-inline">                           
                     </i><span class=" d-md-inline-block d-none">Home</span></a></li>                    
                     <li><a  href="Design.html">Design</a></li>
-                    <li><a data-bs-toggle="modal" data-bs-target="#exampleModal" href="">3D Views</a></li>
+                    <li><a data-bs-toggle="modal" data-bs-target="#pop" href="">3D Views</a></li>
                     <li  class=""><a href="./About.html">About Us</a></li>                                                
                     <li class="text-decoration-underline"><a href="">Contact Us</a></li>
                 </ul>
@@ -49,39 +69,49 @@
     </div>       
 </div>
 
-<div class="container">
+
+
+<div class="container  mb-5 mt-4">
 <div class="row">
-    <div class="col-md-12 text-center py-3">
+    <div class="col-12 text-center">
         <h2 id="contact_text">Contact Us !</h2>        
-    </div>    
-    <div class="col-md-6">
+    </div>
+    <div class="col-md-6   mt-n5 ">        
+        <div class="row justify-content-center">
+            <div class="col-10">
+            <form action="">
+            <label for="" class="form-label mt-3">Full Name</label>
+            <input type="text" class="form-control" placeholder="Full Name" aria-label="Username">            
+            <label for="" class="form-label mt-3">Email address</label>
+            <input type="email" class="form-control"  placeholder="Email ID">
+            <label for="" class="form-label mt-3">Content</label>
+            <textarea class="form-control"  rows="8" style="  resize: none;" placeholder="What to Ask anything"></textarea>
+            <button type="button"  class="btn btn-secondary mt-4"  id="successpop" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>                        
+            
+        </form>
+            </div>
+        </div>
+        
+    </div>
+    <div class="col-md-6 py-3 d-md-inline-block d-none">        
+        
+        <img src="../img/map.webp" alt="" class="img-thumbnail p-2 mb-3 img-hover">
+
         <i class="fas fa-map-marker-alt d-inline"></i>
-        <p class="d-inline">Lorem, ipsum dolor.</p><br>
-        <!-- <i class="fas fa-inbox-out"></i> -->
+        <p class="d-inline-block">Lorem, ipsum dolor.</p><br>
+
         <i class="fas fa-inbox"></i>
-        <p class="d-inline">Lorem ipsum dolor sit.</p>
-    </div>
-    <div class="col-md-6">
+        <p class="d-inline-block">Lorem ipsum dolor sit.</p>
 
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum velit, consectetur, accusantium minima perferendis hic nisi repudiandae </p>
     </div>
+    
 </div>
 
 
 
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
 
     <div id="footer_bar">
         <div class="container">
